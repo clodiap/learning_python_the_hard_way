@@ -44,3 +44,5 @@ target.close()
 print("We will open it again and read it")
 txt = open(filename)
 print(txt.read())
+
+txt.close()
